@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D733D0B20DCDFBD0075D83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D733D0A20DCDFBD0075D83E /* AppDelegate.swift */; };
+		8D733D0D20DCDFBD0075D83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D733D0C20DCDFBD0075D83E /* ViewController.swift */; };
+		8D733D1020DCDFBD0075D83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D733D0E20DCDFBD0075D83E /* Main.storyboard */; };
+		8D733D1220DCDFBF0075D83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D733D1120DCDFBF0075D83E /* Assets.xcassets */; };
+		8D733D1520DCDFBF0075D83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D733D1320DCDFBF0075D83E /* LaunchScreen.storyboard */; };
+		8D733D2020DCDFC00075D83E /* TaiwanTripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D733D1F20DCDFC00075D83E /* TaiwanTripTests.swift */; };
+		8D733D2B20DCDFC00075D83E /* TaiwanTripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D733D2A20DCDFC00075D83E /* TaiwanTripUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D733D1C20DCDFC00075D83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D733CFF20DCDFBD0075D83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D733D0620DCDFBD0075D83E;
+			remoteInfo = TaiwanTrip;
+		};
+		8D733D2720DCDFC00075D83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D733CFF20DCDFBD0075D83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D733D0620DCDFBD0075D83E;
+			remoteInfo = TaiwanTrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D733D0720DCDFBD0075D83E /* TaiwanTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiwanTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D733D0A20DCDFBD0075D83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D733D0C20DCDFBD0075D83E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D733D0F20DCDFBD0075D83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D733D1120DCDFBF0075D83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D733D1420DCDFBF0075D83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D733D1620DCDFBF0075D83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D733D1B20DCDFC00075D83E /* TaiwanTripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiwanTripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D733D1F20DCDFC00075D83E /* TaiwanTripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanTripTests.swift; sourceTree = "<group>"; };
+		8D733D2120DCDFC00075D83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D733D2620DCDFC00075D83E /* TaiwanTripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaiwanTripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D733D2A20DCDFC00075D83E /* TaiwanTripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanTripUITests.swift; sourceTree = "<group>"; };
+		8D733D2C20DCDFC00075D83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D733D0420DCDFBD0075D83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D733D1820DCDFC00075D83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D733D2320DCDFC00075D83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D733CFE20DCDFBD0075D83E = {
+			isa = PBXGroup;
+			children = (
+				8D733D0920DCDFBD0075D83E /* TaiwanTrip */,
+				8D733D1E20DCDFC00075D83E /* TaiwanTripTests */,
+				8D733D2920DCDFC00075D83E /* TaiwanTripUITests */,
+				8D733D0820DCDFBD0075D83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D733D0820DCDFBD0075D83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D733D0720DCDFBD0075D83E /* TaiwanTrip.app */,
+				8D733D1B20DCDFC00075D83E /* TaiwanTripTests.xctest */,
+				8D733D2620DCDFC00075D83E /* TaiwanTripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D733D0920DCDFBD0075D83E /* TaiwanTrip */ = {
+			isa = PBXGroup;
+			children = (
+				8D733D0A20DCDFBD0075D83E /* AppDelegate.swift */,
+				8D733D0C20DCDFBD0075D83E /* ViewController.swift */,
+				8D733D0E20DCDFBD0075D83E /* Main.storyboard */,
+				8D733D1120DCDFBF0075D83E /* Assets.xcassets */,
+				8D733D1320DCDFBF0075D83E /* LaunchScreen.storyboard */,
+				8D733D1620DCDFBF0075D83E /* Info.plist */,
+			);
+			path = TaiwanTrip;
+			sourceTree = "<group>";
+		};
+		8D733D1E20DCDFC00075D83E /* TaiwanTripTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D733D1F20DCDFC00075D83E /* TaiwanTripTests.swift */,
+				8D733D2120DCDFC00075D83E /* Info.plist */,
+			);
+			path = TaiwanTripTests;
+			sourceTree = "<group>";
+		};
+		8D733D2920DCDFC00075D83E /* TaiwanTripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D733D2A20DCDFC00075D83E /* TaiwanTripUITests.swift */,
+				8D733D2C20DCDFC00075D83E /* Info.plist */,
+			);
+			path = TaiwanTripUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D733D0620DCDFBD0075D83E /* TaiwanTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D733D2F20DCDFC00075D83E /* Build configuration list for PBXNativeTarget "TaiwanTrip" */;
+			buildPhases = (
+				8D733D0320DCDFBD0075D83E /* Sources */,
+				8D733D0420DCDFBD0075D83E /* Frameworks */,
+				8D733D0520DCDFBD0075D83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaiwanTrip;
+			productName = TaiwanTrip;
+			productReference = 8D733D0720DCDFBD0075D83E /* TaiwanTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D733D1A20DCDFC00075D83E /* TaiwanTripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D733D3220DCDFC00075D83E /* Build configuration list for PBXNativeTarget "TaiwanTripTests" */;
+			buildPhases = (
+				8D733D1720DCDFC00075D83E /* Sources */,
+				8D733D1820DCDFC00075D83E /* Frameworks */,
+				8D733D1920DCDFC00075D83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D733D1D20DCDFC00075D83E /* PBXTargetDependency */,
+			);
+			name = TaiwanTripTests;
+			productName = TaiwanTripTests;
+			productReference = 8D733D1B20DCDFC00075D83E /* TaiwanTripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D733D2520DCDFC00075D83E /* TaiwanTripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D733D3520DCDFC00075D83E /* Build configuration list for PBXNativeTarget "TaiwanTripUITests" */;
+			buildPhases = (
+				8D733D2220DCDFC00075D83E /* Sources */,
+				8D733D2320DCDFC00075D83E /* Frameworks */,
+				8D733D2420DCDFC00075D83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D733D2820DCDFC00075D83E /* PBXTargetDependency */,
+			);
+			name = TaiwanTripUITests;
+			productName = TaiwanTripUITests;
+			productReference = 8D733D2620DCDFC00075D83E /* TaiwanTripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D733CFF20DCDFBD0075D83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					8D733D0620DCDFBD0075D83E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8D733D1A20DCDFC00075D83E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8D733D0620DCDFBD0075D83E;
+					};
+					8D733D2520DCDFC00075D83E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8D733D0620DCDFBD0075D83E;
+					};
+				};
+			};
+			buildConfigurationList = 8D733D0220DCDFBD0075D83E /* Build configuration list for PBXProject "TaiwanTrip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D733CFE20DCDFBD0075D83E;
+			productRefGroup = 8D733D0820DCDFBD0075D83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D733D0620DCDFBD0075D83E /* TaiwanTrip */,
+				8D733D1A20DCDFC00075D83E /* TaiwanTripTests */,
+				8D733D2520DCDFC00075D83E /* TaiwanTripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D733D0520DCDFBD0075D83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D733D1520DCDFBF0075D83E /* LaunchScreen.storyboard in Resources */,
+				8D733D1220DCDFBF0075D83E /* Assets.xcassets in Resources */,
+				8D733D1020DCDFBD0075D83E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D733D1920DCDFC00075D83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D733D2420DCDFC00075D83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D733D0320DCDFBD0075D83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D733D0D20DCDFBD0075D83E /* ViewController.swift in Sources */,
+				8D733D0B20DCDFBD0075D83E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D733D1720DCDFC00075D83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D733D2020DCDFC00075D83E /* TaiwanTripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D733D2220DCDFC00075D83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D733D2B20DCDFC00075D83E /* TaiwanTripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D733D1D20DCDFC00075D83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D733D0620DCDFBD0075D83E /* TaiwanTrip */;
+			targetProxy = 8D733D1C20DCDFC00075D83E /* PBXContainerItemProxy */;
+		};
+		8D733D2820DCDFC00075D83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D733D0620DCDFBD0075D83E /* TaiwanTrip */;
+			targetProxy = 8D733D2720DCDFC00075D83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D733D0E20DCDFBD0075D83E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D733D0F20DCDFBD0075D83E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D733D1320DCDFBF0075D83E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D733D1420DCDFBF0075D83E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D733D2D20DCDFC00075D83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D733D2E20DCDFC00075D83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D733D3020DCDFC00075D83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C643244H2V;
+				INFOPLIST_FILE = TaiwanTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucy.Liou.com.TaiwanTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D733D3120DCDFC00075D83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C643244H2V;
+				INFOPLIST_FILE = TaiwanTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucy.Liou.com.TaiwanTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D733D3320DCDFC00075D83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C643244H2V;
+				INFOPLIST_FILE = TaiwanTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucy.Liou.com.TaiwanTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaiwanTrip.app/TaiwanTrip";
+			};
+			name = Debug;
+		};
+		8D733D3420DCDFC00075D83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C643244H2V;
+				INFOPLIST_FILE = TaiwanTripTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucy.Liou.com.TaiwanTripTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaiwanTrip.app/TaiwanTrip";
+			};
+			name = Release;
+		};
+		8D733D3620DCDFC00075D83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C643244H2V;
+				INFOPLIST_FILE = TaiwanTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucy.Liou.com.TaiwanTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaiwanTrip;
+			};
+			name = Debug;
+		};
+		8D733D3720DCDFC00075D83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C643244H2V;
+				INFOPLIST_FILE = TaiwanTripUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Lucy.Liou.com.TaiwanTripUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaiwanTrip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D733D0220DCDFBD0075D83E /* Build configuration list for PBXProject "TaiwanTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D733D2D20DCDFC00075D83E /* Debug */,
+				8D733D2E20DCDFC00075D83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D733D2F20DCDFC00075D83E /* Build configuration list for PBXNativeTarget "TaiwanTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D733D3020DCDFC00075D83E /* Debug */,
+				8D733D3120DCDFC00075D83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D733D3220DCDFC00075D83E /* Build configuration list for PBXNativeTarget "TaiwanTripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D733D3320DCDFC00075D83E /* Debug */,
+				8D733D3420DCDFC00075D83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D733D3520DCDFC00075D83E /* Build configuration list for PBXNativeTarget "TaiwanTripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D733D3620DCDFC00075D83E /* Debug */,
+				8D733D3720DCDFC00075D83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D733CFF20DCDFBD0075D83E /* Project object */;
+}
